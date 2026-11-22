@@ -1,0 +1,53 @@
+.right {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+/* Create Button */
+.create {
+    background-color: #f2f2f2;
+    color: black;
+    padding: 8px 16px;
+    border-radius: 25px;
+    cursor: pointer;
+     margin-top: 20px;
+    transition: 0.3s;
+}
+
+.create h3 {
+    font-size: 15px;
+    color: black;
+    font-weight: 500;
+}
+
+.create:hover {
+    background-color: #e5e5e5;
+}
+
+.icon1 {
+    display: flex;
+    color: #e5e5e5;
+     padding-top: 20px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.icon1 span {
+    font-size: 27px;
+}
+
+.icon2 {
+    display: flex;
+    align-items: center;
+    color: #e5e5e5;
+    justify-content: center;
+    cursor: pointer;
+    padding-top: 20px;
+}
+
+.icon2 span {
+    font-size: 32px;
+}
+

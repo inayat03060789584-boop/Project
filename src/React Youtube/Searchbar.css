@@ -1,0 +1,98 @@
+
+.searchbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  background-color:black;
+  padding: 15px 20px;
+  width: 100%;
+}
+
+.input-box {
+  display: flex;
+  align-items: center;
+  width: 600px;
+  height: 45px;
+  border: 1px solid #303030;
+  border-radius: 30px;
+  overflow: hidden;
+  background-color: #121212;
+}
+
+.input-box input {
+  width: 100%;
+  height: 100%;
+  padding: 0 20px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+}
+
+.input-box input::placeholder {
+  color: #aaaaaa;
+}
+
+#opps {
+  height: 45px;
+  width: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #222222;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  border-left: 1px solid #303030;
+  transition: 0.3s;
+}
+
+#opps:hover {
+  background-color: #333333;
+}
+
+.searchbar > .fa-microphone {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #222222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.searchbar > .fa-microphone:hover {
+  background-color: #3a3a3a;
+}
+
+@media (max-width: 600px) {
+  .searchbar {
+    gap: 8px;
+    padding: 10px;
+  }
+
+  .input-box {
+    width: 100%;
+  }
+
+  .input-box input {
+    font-size: 14px;
+    padding: 0 12px;
+  }
+
+  #opps {
+    width: 50px;
+  }
+
+  .searchbar > .fa-microphone {
+    min-width: 40px;
+    width: 40px;
+    height: 40px;
+  }
+}
