@@ -3,11 +3,13 @@ import "./Searchbar.css";
 
 export default function Searchbar() {
   return (
+    <>
+    
     <div className="searchbar">
       <div className="input-box">
         <input type="text" placeholder="Search" />
 
-        <select className="search-options">
+        {/* <select className="search-options">
           <option>Taarak Mehta</option>
           <option>CID</option>
           <option>CIF</option>
@@ -20,12 +22,13 @@ export default function Searchbar() {
           <option>Shorts</option>
           <option>Mr. Patlu</option>
           <option>Raj Butt</option>
-        </select>
+        </select> */}
 
         <i className="fa-solid fa-magnifying-glass" id="opps"></i>
       </div>
 
       <i className="fa-solid fa-microphone"></i>
     </div>
+    </>
   );
 }

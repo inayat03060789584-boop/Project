@@ -3,6 +3,7 @@ import "./short.css";
 export default function Short() {
   return (
     <>
+    <h1>Short</h1>
     <div className="short">
         <div className="short2">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjadgx00q5t71TFXrI9h4lP9dVl7v6GM5yP9T0HShQQw&s=10"></img>
